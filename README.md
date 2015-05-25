@@ -41,7 +41,7 @@ desde la raíz de tu proyecto y configurar los parámetros de manera oportuna:
 
     php composer.phar install -o
     
-Para que todo funcione correctamente, y si conservais los parametros por defecto. Deberéis crear una base de datos con nombre `mpwar` y tener permisos para acceder a ella con el usuario `root` sin password. Podéis cambiar esta configuración cuando estéis haciendo `php composer.phar install -o`
+Para que todo funcione correctamente, y si conservais los parametros por defecto. No hace falta crear una base de datos con nombre `mpwar`, si todo va bien la crearemos más adelante automágicamente Podéis cambiar esta configuración cuando estéis haciendo `php composer.phar install -o`
 
 
 2) Comprobar la Configuración del Sistema
