@@ -66,9 +66,8 @@ Crear la base de datos automágicamente configurada anteriormente ejecutando el 
 4) Ejecutar los Tests
 ----------------------
 
-Comprobar que el código funciona ejecutando los tests:
+Para comprobar que habéis realizado todo el proceso correctamente podéis lanzar los tests de aceptación hechos con [Behat](http://docs.behat.org/en/latest/). Deberían salir todos los tests en verde :)
 
-    ./bin/phpunit -c app/
     ./bin/behat
 
 
@@ -79,5 +78,5 @@ Enhorabuena!! Ya lo tienes todo preparado para empezar a programar :)
 
 
 [1]:  http://akamon.com/
-[2]:  https://github.com/eloipoch/mpwar
+[2]:  código original: https://github.com/eloipoch/mpwar
 [3]:  http://getcomposer.org/
