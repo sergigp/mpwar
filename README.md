@@ -24,7 +24,7 @@ loginado).
 
 Con _git_ clonar el proyecto en la ruta deseada:
 
-    git clone https://github.com/eloipoch/mpwar ruta/nombre-carpeta
+    git clone https://github.com/sergigp/mpwar ruta/nombre-carpeta
 
 ### Instalar las dependencias
 
@@ -40,6 +40,8 @@ Entonces usa el comando `composer install` para requerir las dependencias
 desde la raíz de tu proyecto y configurar los parámetros de manera oportuna:
 
     php composer.phar install -o
+    
+Para que todo funcione correctamente, y si conservais los parametros por defecto. Deberéis crear una base de datos con nombre `mpwar` y tener permisos para acceder a ella con el usuario `root` sin password. Podéis cambiar esta configuración cuando estéis haciendo `php composer.phar install -o`
 
 
 2) Comprobar la Configuración del Sistema
