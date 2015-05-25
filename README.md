@@ -58,7 +58,7 @@ Ejecutar el script `check.php` desde la línea de comandos:
 3) Crear la base datos
 ----------------------
 
-Crear la base de datos configurada anteriormente ejecutando el comando:
+Crear la base de datos automágicamente configurada anteriormente ejecutando el comando:
 
     ./app/console doctrine:database:create
 
