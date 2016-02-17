@@ -4,10 +4,10 @@ namespace MPWAR\Module\Economy\Domain;
 
 use DateTimeImmutable;
 use MPWAR\Module\Economy\Contract\DomainEvent\AccountOpened;
+use SimpleBus\Message\Recorder\ContainsRecordedMessages;
 use SimpleBus\Message\Recorder\PrivateMessageRecorderCapabilities;
-use SimpleBus\Message\Recorder\RecordsMessages;
 
-final class Account implements RecordsMessages
+final class Account implements ContainsRecordedMessages
 {
     private $owner;
     private $balance;

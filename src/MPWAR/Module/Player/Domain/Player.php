@@ -4,10 +4,10 @@ namespace MPWAR\Module\Player\Domain;
 
 use DateTimeImmutable;
 use MPWAR\Module\Player\Contract\DomainEvent\PlayerRegistered;
+use SimpleBus\Message\Recorder\ContainsRecordedMessages;
 use SimpleBus\Message\Recorder\PrivateMessageRecorderCapabilities;
-use SimpleBus\Message\Recorder\RecordsMessages;
 
-final class Player implements RecordsMessages
+final class Player implements ContainsRecordedMessages
 {
     private $id;
     private $name;
